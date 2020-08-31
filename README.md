@@ -9,12 +9,12 @@ This repository aims to reproduce and expend the "Batched Bandits Problems" and 
 
 # Instalation
 The code was implementedin python3 and uses scipy and numpy. Please install using pip:
-'''pip install numpy'''
-'''pip install scipy'''
+```pip install numpy```
+```pip install scipy```
 
 # Runing the code
-'''python main_paralle --alg improved_ucb_gtb --d poisson'''
+```python main_paralle --alg improved_ucb_gtb --d poisson```
 
 ## plot
-'''python ploter --sub_plot'''
+```python ploter --sub_plot```
 
