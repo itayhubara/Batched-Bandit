@@ -1,5 +1,5 @@
 # Batched-Bandit
-This repository aims to reproduce and expend the "Batched Bandits Problems" and extend it by adding the following experiments:
+This repository aims to reproduce and expend the   ["Batched Bandits Problems"](https://arxiv.org/pdf/1505.00369.pdf "Batched Bandits Problems") and extend it by adding the following experiments:
 - Ploting the "optimal grid" as suggested in section 4.2
 - PredTau algorithm which estimate delta and predict tau(\Delta) 
 - Improved-UCB - I added this experiment for fair comparison
