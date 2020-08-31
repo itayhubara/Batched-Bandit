@@ -4,7 +4,8 @@ This repository aims to reproduce and expend the   ["Batched Bandits Problems"](
 - PredTau algorithm which estimate delta and predict tau(\Delta) 
 - Improved-UCB - I added this experiment for fair comparison
 - Improved-UCB with go-to-broke policy
-- Batched alimination algorithm based on 
+- Batched Arm Elimination algorithm based on the paper ["Regret Bounds for Batched Bandits"](https://arxiv.org/pdf/1910.04959.pdf "Regret Bounds for Batched Bandits")
+
 ***This is not the official code of the paper***
 
 # Instalation
