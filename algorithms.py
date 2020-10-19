@@ -217,7 +217,7 @@ class PredTau(Sampler):
 
     def approx_tau(self):
         r_bs_arm1,r_bs_arm2 = self.get_avg_reward_and_bs()
-        std_avg = (r_bs_arm1[0]/r_bs_arm1[2]+r_bs_arm2[0]/r_bs_arm2[2])/2 > 0.5
+        std_avg = (r_bs_arm1[0]/r_bs_arm1[1]+r_bs_arm2[0]/r_bs_arm2[1])/2 > 0.5
         #delta = abs(r_bs_arm1[0]-r_bs_arm2[0])+1e-3-std_avg*math.log(math.sqrt(self.T/self.t)) #1e-3 #+(r_bs_arm1[1]+r_bs_arm2[1])/(2*self.T)
         
         if abs(r_bs_arm1[0]-r_bs_arm2[0])>r_bs_arm2[1] or std_avg:
